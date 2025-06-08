@@ -7,15 +7,15 @@ Furo is a digital audio workstation (DAW) coded entirely in Python that can mani
 
 ### Spacebar  
 **Play or Stop the Project**  
-Starts or stops the main audio sequence. Also stops any preview sound that's currently playing.
+Starts or stops the main audio sequence. 
 
 ### R  
 **Record Audio**  
-Begins recording a new audio clip.
+Begins recording a new audio clip via the microphone.
 
 ### Command (⌘) + R  
 **Reverse Audio**  
-Reverses the last clicked audio clip so it plays backward.
+Reverses the last clicked audio clip.
 
 ---
 
@@ -39,27 +39,31 @@ Ungrabs the last clicked audio clip and resets dragging state.
 
 ### C  
 **Copy Selected Clips**  
-Copies all currently selected audio clips (except the first one clicked) and stores their relative position.
+Copies all currently selected audio clips.
 
 ### Command (⌘) + C  
 **Consolidate**  
-Combines selected clips into one (if this function is implemented).
+Combines selected clips into one.
 
 ### V  
 **Paste Copied Clips**  
-Pastes the copied audio clips back into the timeline at a position relative to the sequence.
+Pastes the copied audio clips.
 
 ### Command (⌘) + V  
 **Duplicate Last Clip in Pattern**  
-Creates a series of duplicates of the last clicked clip, laid out in a rhythmic pattern.
+Creates a series of duplicates of the last clicked clip, laid out in a 4x1 pattern.
 
 ---
 
 ## Tools & Views
 
+### U  
+**Import Audio File**  
+Opens a file picker to load a new audio clip into the project.
+
 ### M  
 **Toggle Stretch Mode**  
-Enables or disables stretch mode for time-stretching audio. Also hides the mouse cursor while active.
+Enables or disables stretch mode for time-stretching audio.
 
 ### E  
 **Toggle Mixer View**  
@@ -67,11 +71,17 @@ Turns the mixer on or off for adjusting audio parameters like volume and panning
 
 ### F  
 **Show or Hide File Paths**  
-Toggles visibility of file paths or names below each clip.
+Toggles visibility of file paths on the sidebar.
 
 ### I  
 **Toggle Insert Mode**  
-Switches insert mode on or off, affecting how new clips are placed.
+Switches insert mode on or off, affecting how new clips are placed using the File Path bar.
+
+
+### Command (⌘) + T  
+**Store Tempo Setting**  
+Saves the current BPM (tempo) value internally when clicking the Align Tempo button.
+
 
 ---
 
@@ -85,23 +95,17 @@ Moves the sequence view left or right.
 **Jump in Timeline**  
 Scrolls by a larger amount for faster navigation.
 
+### Mouse Scroll
+**Move Timeline**  
+Move throughout the timeline by swiping horizontally on your trackpad.
+
 ### X  
 **Zoom In**  
-Increases the zoom level of the timeline, making clips appear wider.
+Increases the zoom level of the timeline. 
 
 ### Z  
 **Zoom Out**  
-Decreases the zoom level, showing more of the timeline at once.
+Decreases the zoom level.
 
 ---
-
-## Miscellaneous
-
-### U  
-**Import Audio File**  
-Opens a file picker to load a new audio clip into the project.
-
-### Command (⌘) + T  
-**Store Tempo Setting**  
-Saves the current BPM (tempo) value internally (no visible change).
 
