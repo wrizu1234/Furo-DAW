@@ -1,4 +1,5 @@
-# Furo-DAW
+# Furo-DAW (Mac-Exclusive)
+
 Furo is a digital audio workstation (DAW) coded entirely in Python that can manipulate audio files in order to create whatever you want! From combining clips, to reversing, splitting, and quick insertion, FURO is THE simple yet effective DAW. Use the mixer to control volume and pan, and use the plugin feature to add reverb, delay, EQ, compression, chorus, noise gates, and much more effects! It's not about what this DAW can do-- it's about who YOU will BECOME.
 
 # Keyboard Controls
